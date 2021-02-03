@@ -1,0 +1,169 @@
+<!DOCTYPE html>
+<html lang="en">
+    <head>
+        <meta charset="UTF-8">
+        <meta name="viewport" content="width=device-width, initial-scale=1.0">
+        <meta name="author" content="Kristiyan Nachev">
+        <meta name="copyright" content="(C) 2021 All rights reserved">
+        <meta name="keywords" content="Kristiyan, Nachev, portfolio">
+        <meta name="description" content="Kristiyan Nachev's portfolio">
+
+        <link rel="stylesheet" href="style.css">
+        <link rel="stylesheet" href="responsive.css">
+
+        <script src="https://kit.fontawesome.com/e47dc4bc05.js" crossorigin="anonymous"></script>
+        <script src="https://smtpjs.com/v3/smtp.js"></script>
+
+        <title>Kristiyan Nachev | Portfolio</title>
+    </head>
+    <body>
+        <header>
+            <h1 class="logo">Portfolio</h1>
+            <div class="menu-button"></div>
+            <nav>
+                <ul>
+                    <li><a href="#home">Home</a></li>
+                    <li><a href="#about">About</a></li>
+                    <li><a href="#services">Services</a></li>
+                    <li><a href="#work">Work</a></li>
+                    <li><a href="#contact">Contact</a></li>
+                </ul>
+            </nav>
+        </header>
+
+        <section id="home" class="dark">
+            <div class="content">
+                <div class="text-box">
+                    <h2>Hello, I'm<br>
+                    <span>Kristiyan Nachev</span></h2>
+                    <h3>I'm a Game Developer</h3>
+                    <a href="#about" class="button">About Me</a>
+                </div>
+                <img src="images/me/portrait.jpg" alt="Picture of Death itself (X.X)">
+            </div>
+        </section>
+
+        <section id="about" class="light">
+            <div class="heading">
+                <h2>About Me</h2>
+            </div>
+            <div class="content">
+                <div class="text-box">
+                    <h3>I'm a Game Developer</h3>
+                    <p>The most important part in game development is <strong>inspiration</strong>. I got inspired by games like <em>Super Mario</em>, <em>Counter Strike 1.6</em>, <em>Mortal Kombat</em>, <em>World of Warcraft</em> etc. when I was still a little kid and thus my gaming life began. I've been playing games ever since and never got tired of it. At the age of 14 I started going into computer science and coding became one of my primary activities. Not so long afterwards... I wanted to make games <strong>myself</strong>! :)</p>
+                    <p>I started learning all programing languages which are necessary for a game developer: C++, C#, Lua and Python (for scripting) and even Java because I wanted to make a <em>Minecraft</em> mode. After building some games from scratch (a.k.a. creating your own game engine with different APIs like SDL and SFML), I decided to give game engines a try and Unity was the first in my list. I was really surprised at how simple everything was, compared to builing it on your own. And thus I created my latest game - <a href="#work">Sunnyland</a>.</p>
+                </div>
+                <div class="images">
+                    <img src="images/games/super_mario.jpg" alt="Super Mario">
+                    <img src="images/games/counter_strike.jpg" alt="Counter Strike: Global Offensive">
+                </div>
+            </div>
+        </section>
+
+        <section id="services" class="dark">
+            <div class="heading">
+                <h2>My Services</h2>
+                <p>This is what I offer... It ain't much, but it's honest work</p>
+            </div>
+            <div class="content">
+                <div class="text-box">
+                    <img src="images/services/developer_tools.png" alt="Game Development">
+                    <h3>Game Development</h3>
+                    <p>Making games is my hobby and passion. Want to create your own game? I'll be glad to help! :)</p>
+                </div>
+                <div class="text-box">
+                    <img src="images/services/application.png" alt="Software Engineering">
+                    <h3>Software Engineering</h3>
+                    <p>Creating software applications of all sorts. Please do not ask me to hack somebody's Facebook account...</p>
+                </div>
+                <div class="text-box">
+                    <img src="images/services/android.png" alt="Android Applications">
+                    <h3>Android Applications</h3>
+                    <p>Creating software applications of all sorts for Android too! And I mean <strong>Android</strong>... not <strong>iOS</strong>!</p>
+                </div>
+                <div class="text-box">
+                    <img src="images/services/camera.png" alt="Photography">
+                    <h3>Photography</h3>
+                    <p>This is more of a personal hobby than a service. I make good photos... especially selfies :*</p>
+                </div>
+                <div class="text-box">
+                    <img src="images/services/papers.png" alt="Content Writing">
+                    <h3>Content Writing</h3>
+                    <p>I've designed levels, characters, dialogues and much more on paper and later onto a computer.</p>
+                </div>
+                <div class="text-box">
+                    <img src="images/services/video.png" alt="Video Editing">
+                    <h3>Video Editing</h3>
+                    <p>I can edit videos... Yes, that's it...<br>Nothing more to be said...</p>
+                </div>
+            </div>
+        </section>
+
+        <section id="work" class="light">
+            <div class="heading">
+                <h2>My Work</h2>
+                <p>The project I've been working on</p>
+            </div>
+            <div class="content">
+                <div class="text-box">
+                    <h3>Sunnyland</h3>
+                    <p><strong style="color: orange">Sunnyland</strong> is a pixel art 2D platformer adventure game, where you play as a fox and collect <span style="color: crimson">cherries</span> while fighting vicious enemies like... <span style="color: green">frogs</span>. But don't be mistaken, you are not just an ordinary fox! You are actually a father and your little child is waiting for you to return home. Bring him the <span style="color: crimson">cherries</span> you collected and live on as a happy family! <strong style="color: red">&lt;3</strong></p>
+                    <p>The game is playable, but still not finished. I am working on the design of levels 2 and 3 at the moment. They will be set in different locations and will implement some new mechanics such as usable doors, levers, spikes. There is still more to be done, but never fear because your favourite fox <strong style="color: orange">will be here</strong>!</p>
+                    <a href="https://drive.google.com/file/d/1ctSW93guERZRFB_Gx62plbkQodKpKYkd/view?usp=sharing" class="button">Play For Free</a>
+                </div>
+                <div class="video">
+                    <iframe src="https://www.youtube.com/embed/C6MSh-jENos"></iframe>
+                    <p>*This video is NOT an actual footage of the game itself.</p>
+                </div>
+            </div>
+        </section>
+
+        <section id="contact" class="dark">
+            <div class="heading">
+                <h2>Contact Me</h2>
+                <p>We can work together on future projects!</p>
+            </div>
+            <div class="content">
+                <div class="info">
+                    <h3>Contact Info</h3>
+                    <div class="fields">
+                        <div class="field">
+                            <i class="fa fa-map-marker" aria-hidden="true"></i>
+                            <div class="text-box">
+                                <h4>Address</h4>
+                                <address>1756 Sofia,<br>
+                                blvd. "Saint Kliment Ohridski" 27</address>
+                            </div>
+                        </div>
+                        <div class="field">
+                            <i class="fa fa-phone" aria-hidden="true"></i>
+                            <div class="text-box">
+                                <h4>Phone</h4>
+                                <p>+359878710093</p>
+                            </div>
+                        </div>
+                        <div class="field">
+                            <i class="fa fa-envelope" aria-hidden="true"></i>
+                            <div class="text-box">
+                                <h4>Email</h4>
+                                <p>knachev1@gmail.com</p>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+                <form method="POST">
+                    <h3>Meesage Me</h3>
+                    <input type="text" name="fullname" placeholder="Full Name" required>
+                    <input type="email" name="email" placeholder="Email" required>
+                    <textarea name="message" placeholder="Your Message" required></textarea>
+                    <input type="submit" value="Send">
+                </form>
+            </div>
+        </section>
+
+        <footer>Copyright &copy; 2021 Kristiyan Nachev. All Rights Reserved.
+        <img src="images/easter_egg/my_love.jpg" alt="Easter egg :O"></footer>
+
+        <script src="main.js"></script>
+    </body>
+</html>
